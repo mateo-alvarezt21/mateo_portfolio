@@ -1,0 +1,166 @@
+.proyect{
+    font-weight: 800;
+    text-align: center;
+    color: #9A60FA;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+
+.proyect__title{
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.proyect__img{
+    width: 220px;
+    height: 126px;
+}
+
+.p-container{
+    width: 220px;
+    margin: 0 auto;
+}
+
+.proyect__p{
+    font-weight: 400;
+    color: white;
+}
+
+.proyect__icons-container{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    width: 30px;
+}
+
+.fondo-elipse2{
+    position: absolute;
+    top: 909px;
+    left: -624px;
+    min-width: 220px;
+    max-width: 811px;
+    
+}
+
+@media (min-width: 768px) {
+    .proyect{
+        padding-top: 537px;
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 55px;
+    }
+    
+    .proyect__title{
+        font-weight: 700;
+        padding-right: 260px;
+        font-size: 35px;
+    }
+
+    .proyect__img-p{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .proyect__img{
+        width: 260px;
+        height: 166px;
+    }
+    
+    .p-container{
+        width: 220px;
+        margin: 0 auto;
+    }
+    
+    .proyect__p{
+        font-weight: 400;
+        font-size: 13px;
+        color: white;
+    }
+    
+    .proyect__icons-container{
+        justify-content: left;
+    }
+    .icon{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (min-width: 800px) { 
+    
+    .proyect__img{
+        width: 280px;
+        height: 186px;
+    }
+    
+    .proyect__p{
+        font-weight: 400;
+        font-size: 14px;
+        color: white;
+    }
+}
+
+@media (min-width: 1000px) { 
+
+    .proyect{
+        padding-top: 537px;
+        text-align: center;
+        font-size: 50px;
+        padding-bottom: 55px;
+   
+    }
+
+    .proyect__title{
+        font-size: 45px;
+    }
+    
+    .proyect__img{
+        width: 370px;
+        height: 226px;
+    }
+    
+    .proyect__p{
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+    }
+    .fondo-elipse2{
+        left: -513px;
+        
+    }
+}
+
+@media (min-width: 1530px) { 
+
+    .proyect{
+        padding-top: 637px;
+        text-align: center;
+        font-size: 65px;
+        padding-bottom: 55px;
+    }
+
+    .proyect__title{
+        font-size: 45px;
+    }
+    
+    .proyect__img{
+        width: 370px;
+        height: 226px;
+    }
+    
+    .proyect__p{
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+    }
+}

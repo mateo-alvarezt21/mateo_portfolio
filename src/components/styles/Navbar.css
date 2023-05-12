@@ -1,0 +1,140 @@
+/* Estilos para la barra de navegación */
+.menu {
+    position: relative;
+    top: 0;
+    z-index: 10;
+    height: 80px;
+    padding: 0 50px;
+    color: #fff;
+    
+    }
+.navbar__img-logo{
+    display: none;
+}
+.navbar__img{
+    width: 135px;
+    padding-top: 10px;
+}
+
+.navbar__img:hover{
+    animation-name: girar;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+}
+
+@keyframes girar {
+    from {
+      transform: rotate(0deg) translate(10px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translate(10px) rotate(-360deg);
+    }
+  }
+
+.menu__container{
+    display: flex;
+    justify-content: center;
+}
+    
+  /* Estilos para el icono hamburguesa */
+.hamburguesa {
+    display: none;
+    cursor: pointer;
+    padding-top: 30px;
+    }
+
+.hamburguesa span {
+    display: block;
+    width: 42px;
+    height: 3px;
+    margin: 7px;
+
+    background-color: #9A60FA;
+    transition: all 0.3s ease-in-out;
+    }
+    
+  /* Estilos para la lista de elementos de navegación */
+.lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+    gap: 15px;
+    }
+    
+.lista li {
+    margin: 0 20px;
+    }
+    
+.lista a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 200ms ease;
+}
+
+.lista a:hover{
+    color: #9A60FA;
+}
+
+  /* Estilos para el menú activo */
+.menu-activo .hamburguesa span:nth-of-type(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.menu-activo .hamburguesa span:nth-of-type(2) {
+    opacity: 0;
+}
+
+.menu-activo .hamburguesa span:nth-of-type(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+@media only screen and (max-width: 768px) {
+    /* Mostrar el icono hamburguesa en pantallas pequeñas */
+    .hamburguesa {
+        display: block;
+        padding-top: 17px;
+    }
+    .menu{
+        position: sticky;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #242424;
+        z-index: 9999;
+    }
+
+    /* Ocultar la lista de elementos de navegación en pantallas pequeñas */
+    .lista {
+        display: none;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 3;
+        background-color: #242424;
+        
+    }
+
+    .menu-activo .lista {
+        display: flex;
+        }
+    .navbar__img{
+        display: none;
+    }
+    .navbar__img-logo{
+        display: block;
+        position: absolute;
+        width: 101px;
+        right: 0;
+        padding-right: 20px;
+        z-index: 4;
+    }
+}
