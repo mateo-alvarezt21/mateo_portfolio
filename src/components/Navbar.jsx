@@ -16,12 +16,12 @@ function Navbar() {
                 <span></span>
                 <span></span>
             </div>
-            <img className='navbar__img-logo' src="./public/LogoMitri.svg" alt="" />
+            <img className='navbar__img-logo' src="./LogoMitri.svg" alt="" />
             <div className="menu__container">
                 <ul className="lista">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#proyects">Proyectos</a></li>
-                    <img className='navbar__img' src="./public/LogoMitri.svg" alt="" />
+                    <img className='navbar__img' src="./LogoMitri.svg" alt="" />
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#contact">Contacto</a></li>
                 </ul>

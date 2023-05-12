@@ -18,14 +18,14 @@ const Home = () => {
                 <h3 className='home__text'><span>+2 años</span> de experiencia desarrollando webs</h3>
                 <div className='home__icons'>
                     <a href="https://github.com/mateo-alvarezt21"><i className='bx bxl-github home__github' ></i></a>
-                    <a href="https://www.instagram.com/mateo_alvarezt/"><img className='home__instagram' src="./public/instagram.svg" alt="" /></a>
-                    <a href="https://www.linkedin.com/in/mateo-alvarez21/"><img className='home__linkedin' src="./public/linkedin.svg" alt="" /></a>
+                    <a href="https://www.instagram.com/mateo_alvarezt/"><img className='home__instagram' src="./instagram.svg" alt="" /></a>
+                    <a href="https://www.linkedin.com/in/mateo-alvarez21/"><img className='home__linkedin' src="./linkedin.svg" alt="" /></a>
                 </div>
             </div>
             <div className='componente'>
                 <div className='component-imgs'>
-                    <img className='component-img1' src="./public/component1.png" alt="" />
-                    <img className='component-img2' src="./public/mateocard.png" alt="" />
+                    <img className='component-img1' src="./component1.png" alt="" />
+                    <img className='component-img2' src="./mateocard.png" alt="" />
                 </div>
                 
                 <div className='textos'>

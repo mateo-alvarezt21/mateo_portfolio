@@ -7,19 +7,19 @@ const Skills = () => {
         <h1 className='skils__title'>Tech Skills</h1>
             <div className='skills__list'>
                 <div className='skill__icon-img'>
-                    <img className='img-icon' src="./public/javascript-icon.png" alt="" />
+                    <img className='img-icon' src="./javascript-icon.png" alt="" />
                     <h2 className='skills__name'>Javascript</h2>
                 </div>
                 <div className='skill__icon-img'>
-                    <img className='img-icon' src="./public/html-icon.png" alt="" />
+                    <img className='img-icon' src="./html-icon.png" alt="" />
                     <h2 className='skills__name'>Html</h2>
                 </div>
                 <div className='skill__icon-img'>
-                    <img className='img-icon' src="./public/css-icon.png" alt="" />
+                    <img className='img-icon' src="./css-icon.png" alt="" />
                     <h2 className='skills__name'>CSS</h2>
                 </div>
                 <div className='skill__icon-img'>
-                    <img className='img-icon' src="./public/react-icon.png" alt="" />
+                    <img className='img-icon' src="./react-icon.png" alt="" />
                     <h2 className='skills__name'>React</h2>
                 </div>
                 <div className='skill__icon-img'>
@@ -27,15 +27,15 @@ const Skills = () => {
                     <h2 className='skills__name'>Github</h2>
                 </div>
                 <div className='skill__icon-img'>
-                    <img className='img-icon' src="./public/node-icon.png" alt="" />
+                    <img className='img-icon' src="./node-icon.png" alt="" />
                     <h2 className='skills__name'>NodeJS</h2>
                 </div>
                 <div className='skill__icon-img'>
-                    <img className='img-icon' src="./public/git-icon.png" alt="" />
+                    <img className='img-icon' src="./git-icon.png" alt="" />
                     <h2 className='skills__name'>GIT</h2>
                 </div>
                 <div className='skill__icon-img'>
-                    <img className='img-icon' src="./public/figma-icon.png" alt="" />
+                    <img className='img-icon' src="./figma-icon.png" alt="" />
                     <h2 className='skills__name'>Figma</h2>
                 </div>
             </div>
