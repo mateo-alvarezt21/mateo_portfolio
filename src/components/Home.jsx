@@ -11,8 +11,8 @@ const Home = () => {
         </div>
         <div className='home__content'>
             <div className='home__images'>
-                <img className='home__images-eclipse' src="./public/Ellipse.png" alt="" />
-                <img className='home__images-mateo' src="./public/mateo3.png" alt="" />
+                <img className='home__images-eclipse' src="./Ellipse.png" alt="" />
+                <img className='home__images-mateo' src="./mateo3.png" alt="" />
             </div>
             <div className='home__text-experience'>
                 <h3 className='home__text'><span>+2 años</span> de experiencia desarrollando webs</h3>
@@ -36,7 +36,7 @@ const Home = () => {
                 
             </div>
             <div>
-                <img className='fondo-elipse'  src="./public/Ellipse3.png" alt="" />
+                <img className='fondo-elipse'  src="./Ellipse3.png" alt="" />
             </div>
         </div>
         
