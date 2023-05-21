@@ -1,3 +1,18 @@
+
+.formulario.light{
+    background-color: var(--background-light);
+}
+.formulario.light form{
+    background-color: #9364e669;
+}
+.formulario.light label{
+    color: rgb(49, 45, 45);
+}
+
+.formulario{
+    padding-bottom: 100px;
+    padding-top: 70px;
+}
 form{
     padding-top: 30px;
     padding: 50px 55px;
@@ -6,9 +21,6 @@ form{
     text-align: center;
     width: 340px;
     margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 100px;
-    
 }
 
 .input-group{

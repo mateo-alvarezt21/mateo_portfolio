@@ -79,6 +79,14 @@
     color: #9A60FA;
 }
 
+.menu.light{
+    background-color: var(--background-light);
+}
+
+.lista.light a{
+    color: #242424;
+}
+
   /* Estilos para el menú activo */
 .menu-activo .hamburguesa span:nth-of-type(1) {
     transform: translateY(10px) rotate(45deg);
@@ -121,6 +129,10 @@
         z-index: 3;
         background-color: #242424;
         
+    }
+
+    .lista.light{
+        background-color: var(--background-light);
     }
 
     .menu-activo .lista {

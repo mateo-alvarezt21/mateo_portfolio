@@ -1,3 +1,7 @@
+.proyects.light{
+    background-color: var(--background-light);
+}
+
 .proyect{
     font-weight: 800;
     text-align: center;
@@ -12,6 +16,10 @@
     text-align: center;
     color: white;
     font-size: 32px;
+}
+
+.proyect__title.light{
+    color: black;
 }
 
 .img-container{
@@ -32,6 +40,10 @@
 .proyect__p{
     font-weight: 400;
     color: white;
+}
+
+.proyect__p.light{
+    color: black;
 }
 
 .proyect__icons-container{

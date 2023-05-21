@@ -1,3 +1,11 @@
+.skills.light{
+    background-color: var(--background-light);
+}
+.skills__name.light{
+    color: black;
+}
+
+
 .skils__title{
     font-weight: 800;
     text-align: center;

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./styles/Navbar.css"
 
 
-function Navbar() {
+function Navbar({lightMode}) {
     const [menuActivo, setMenuActivo] = useState(false);
 
     function toggleMenu() {
@@ -10,7 +10,7 @@ function Navbar() {
     }
 
     return (
-        <nav className={menuActivo ? 'menu menu-activo' : 'menu'}>
+        <nav className={`${menuActivo ? 'menu menu-activo' : 'menu'} ${lightMode ? 'light' : ''}`}>
             <div className="hamburguesa" onClick={toggleMenu}>
                 <span></span>
                 <span></span>
@@ -18,7 +18,7 @@ function Navbar() {
             </div>
             <img className='navbar__img-logo' src="./LogoMitri.svg" alt="" />
             <div className="menu__container">
-                <ul className="lista">
+                <ul className={`lista ${lightMode ? 'light' : ''}`}>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#proyects">Proyectos</a></li>
                     <img className='navbar__img' src="./LogoMitri.svg" alt="" />
@@ -27,6 +27,7 @@ function Navbar() {
                 </ul>
             </div>
         </nav>
+        
     );
 }
 

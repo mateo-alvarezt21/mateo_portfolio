@@ -9,9 +9,9 @@ import 'swiper/css/scrollbar';
 
 
 
-const Proyects = () => {
+const Proyects = ({lightMode}) => {
   return (
-    <div>
+    <div className={`proyects ${lightMode ? 'light' : ''}`}>
         <h1 className='proyect'>Proyectos</h1>
         <div>
             <img className='fondo-elipse2'  src="./Ellipse3.png" alt="" />
@@ -30,14 +30,14 @@ const Proyects = () => {
         // }}
         >
         <SwiperSlide  >
-            <h2 className='proyect__title' id='proyects'>Weather App</h2>
+            <h2 className={`proyect__title ${lightMode ? 'light' : ''}`} id='proyects'>Weather App</h2>
             <div className="proyect__img-p">
                 <div className='img-container'>
                     <img className='proyect__img' src="./weather.png" alt="" />
                 </div>
                 <div className="proyect__p-icon">
                     <div className='p-container'>
-                        <p className='proyect__p'>Web que permite al usuario saber datos con precisión del clima a en su localización, usando parámetros de geolocalización y dando la información de forma grafica y comprensible para el usuario mediante API </p>
+                        <p className={`proyect__p ${lightMode ? 'light' : ''}`} >Web que permite al usuario saber datos con precisión del clima a en su localización, usando parámetros de geolocalización y dando la información de forma grafica y comprensible para el usuario mediante API </p>
                     </div>
                     <div className='proyect__icons-container'>
                         <img className='icon' src="./css-icon.png" alt="" />
@@ -49,14 +49,14 @@ const Proyects = () => {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <h2 className='proyect__title'>Ecommerce</h2>
+            <h2 className={`proyect__title ${lightMode ? 'light' : ''}`}>Ecommerce</h2>
             <div className="proyect__img-p">
                 <div className='img-container'>
                     <img className='proyect__img' src="./ecommerce.png" alt="" />
                 </div>
                 <div className="proyect__p-icon">
                     <div className='p-container'>
-                        <p className='proyect__p'>Web desarrollada al 100% con metodología ágil, usando dependencias de React para paginación, cuenta con un carrito de compras 100% funcional y diseño totalmente responsive</p>
+                        <p className={`proyect__p ${lightMode ? 'light' : ''}`}>Web desarrollada al 100% con metodología ágil, usando dependencias de React para paginación, cuenta con un carrito de compras 100% funcional y diseño totalmente responsive</p>
                     </div>
                     <div className='proyect__icons-container'>
                         <img className='icon' src="./css-icon.png" alt="" />
@@ -68,14 +68,14 @@ const Proyects = () => {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <h2 className='proyect__title'>Pokedex</h2>
+            <h2 className={`proyect__title ${lightMode ? 'light' : ''}`}>Pokedex</h2>
             <div className="proyect__img-p">
                 <div className='img-container'>
                     <img className='proyect__img' src="./pokedex.png" alt="" />
                 </div>
                 <div className="proyect__p-icon">
                     <div className='p-container'>
-                        <p className='proyect__p'>Web replica de una Pokedex en donde el usuario podra buscar todos los iconicos pokemon de la serie animada en conjunto a sus estadisticas, cuenta con diseño responsivo adaptable a cualquier tipo de dispositivo</p>
+                        <p className={`proyect__p ${lightMode ? 'light' : ''}`}>Web replica de una Pokedex en donde el usuario podra buscar todos los iconicos pokemon de la serie animada en conjunto a sus estadisticas, cuenta con diseño responsivo adaptable a cualquier tipo de dispositivo</p>
                     </div>
                     <div className='proyect__icons-container'>
                         <img className='icon' src="./css-icon.png" alt="" />
@@ -87,14 +87,14 @@ const Proyects = () => {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <h2 className='proyect__title'>Crud de Usuarios</h2>
+            <h2 className={`proyect__title ${lightMode ? 'light' : ''}`}>Crud de Usuarios</h2>
             <div className="proyect__img-p">
                 <div className='img-container'>
                     <img className='proyect__img' src="./userscrud.png" alt="" />
                 </div>
                 <div className="proyect__p-icon">
                     <div className='p-container'>
-                        <p className='proyect__p'>Web que permite hacer registros de usuarios. Usa metodologías ágiles, Redux, APIS y dependencias personalizadas y diseño responsivo a todo tipo de tamaño
+                        <p className={`proyect__p ${lightMode ? 'light' : ''}`}>Web que permite hacer registros de usuarios. Usa metodologías ágiles, Redux, APIS y dependencias personalizadas y diseño responsivo a todo tipo de tamaño
                     </p>
                     </div>
                     <div className='proyect__icons-container'>
@@ -107,14 +107,14 @@ const Proyects = () => {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <h2 className='proyect__title'>Rick y Morty</h2>
+            <h2 className={`proyect__title ${lightMode ? 'light' : ''}`}>Rick y Morty</h2>
             <div className="proyect__img-p">
                 <div className='img-container'>
                     <img className='proyect__img' src="./rickymorty.png" alt="" />
                 </div>
                 <div className="proyect__p-icon">
                     <div className='p-container'>
-                        <p className='proyect__p'>Página web la cual nos sirve para trackear los personajes y dimensiones de la popular caricatura “Rick y Morty”, Se implementaron API y uso de Custom Hooks para reducir tiempos de ejecución. Diseño responsivo a todo tipo de tamaño
+                        <p className={`proyect__p ${lightMode ? 'light' : ''}`}>Página web la cual nos sirve para trackear los personajes y dimensiones de la popular caricatura “Rick y Morty”, Se implementaron API y uso de Custom Hooks para reducir tiempos de ejecución. Diseño responsivo a todo tipo de tamaño
                     </p>
                     </div>
                     <div className='proyect__icons-container'>
