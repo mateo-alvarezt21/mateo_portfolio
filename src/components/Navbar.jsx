@@ -8,6 +8,9 @@ function Navbar({lightMode}) {
     function toggleMenu() {
         setMenuActivo(!menuActivo);
     }
+    function cerrarMenu() {
+        setMenuActivo(false);
+    }
 
     return (
         <nav className={`${menuActivo ? 'menu menu-activo' : 'menu'} ${lightMode ? 'light' : ''}`}>
@@ -19,11 +22,11 @@ function Navbar({lightMode}) {
             <img className='navbar__img-logo' src="./LogoMitri.svg" alt="" />
             <div className="menu__container">
                 <ul className={`lista ${lightMode ? 'light' : ''}`}>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#proyects">Proyectos</a></li>
-                    <img className='navbar__img' src="./LogoMitri.svg" alt="" />
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#home" onClick={cerrarMenu}>Home</a></li>
+                    <li><a href="#proyects" onClick={cerrarMenu}>Proyectos</a></li>
+                    <img className='navbar__img' onClick={cerrarMenu} src="./LogoMitri.svg" alt="" />
+                    <li><a href="#skills" onClick={cerrarMenu}>Skills</a></li>
+                    <li><a href="#contact" onClick={cerrarMenu}>Contacto</a></li>
                 </ul>
             </div>
         </nav>
