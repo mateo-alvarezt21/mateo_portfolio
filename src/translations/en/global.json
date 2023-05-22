@@ -1,0 +1,35 @@
+{
+    "navbar":{
+        "proyectos": "Proyects",
+        "contacto": "Contact"
+    },
+    "home":{
+        "hola-mi-nombre-es": "Hi, i am",
+        "2-años": "+2 years",
+        "de-experiencia-desarrollando-webs": "of experience developing websites",
+        "proyectos":" proyects",
+        "constante":"Constant",
+        "innovacion":"Innovation"
+    },
+    "proyects":{
+        "proyectos":"Proyects",
+        "descripcion1":"Web that allows the user to know accurate weather data at their location, using geolocation parameters and giving the information in a graphic and understandable way for the user through API ",
+        "descripcion2":"Web developed 100% with agile methodology, using React dependencies for pagination, it has a 100% functional shopping cart and fully responsive design.",
+        "descripcion3":"Web replica of a Pokedex where the user can search for all the iconic pokemon from the animated series together with their statistics, it has a responsive design adaptable to any type of device",
+        "crud":"Users CRUD",
+        "descripcion4":"Web that allows users to register. Use agile methodologies, Redux, APIS and custom dependencies and responsive design to all kinds of sizes",
+        "descripcion5":"Web page which helps us to track the characters and dimensions of the popular cartoon “Rick & Morty”, API and use of Custom Hooks were implemented to reduce execution times. Responsive design to all types of size"
+    },
+    "contacto":{
+        "contacto":"Contact",
+        "nombre":"Name",
+        "nombre-place":"Name",
+        "telefono":"Phone",
+        "email":"Email",
+        "mensaje":"Message",
+        "telefono-place":"Phone",
+        "email-place":"Email",
+        "mensaje-place":"Message",
+        "enviar":"Send"
+    }
+}

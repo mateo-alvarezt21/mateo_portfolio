@@ -1,0 +1,35 @@
+{
+    "navbar":{
+        "proyectos": "Proyectos",
+        "contacto": "Contacto"
+    },
+    "home":{
+        "hola-mi-nombre-es": "Hola, mi nombre es",
+        "2-años": "+2 años",
+        "de-experiencia-desarrollando-webs": "de experiencia desarrollando webs",
+        "proyectos":" proyectos",
+        "constante":"Constante",
+        "innovacion":"Innovación"
+    },
+    "proyects":{
+        "proyectos":"Proyectos",
+        "descripcion1":"Web que permite al usuario saber datos con precisión del clima a en su localización, usando parámetros de geolocalización y dando la información de forma grafica y comprensible para el usuario mediante API ",
+        "descripcion2":"Web desarrollada al 100% con metodología ágil, usando dependencias de React para paginación, cuenta con un carrito de compras 100% funcional y diseño totalmente responsive",
+        "descripcion3":"Web replica de una Pokedex en donde el usuario podra buscar todos los iconicos pokemon de la serie animada en conjunto a sus estadisticas, cuenta con diseño responsivo adaptable a cualquier tipo de dispositivo",
+        "crud":"Crud de Usuarios",
+        "descripcion4":"Web que permite hacer registros de usuarios. Usa metodologías ágiles, Redux, APIS y dependencias personalizadas y diseño responsivo a todo tipo de tamaño",
+        "descripcion5":"Página web la cual nos sirve para trackear los personajes y dimensiones de la popular caricatura “Rick y Morty”, Se implementaron API y uso de Custom Hooks para reducir tiempos de ejecución. Diseño responsivo a todo tipo de tamaño"
+    },
+    "contacto":{
+        "contacto":"Contacto",
+        "nombre":"Nombre",
+        "nombre-place":"Nombre",
+        "telefono":"Telefono",
+        "email":"Email",
+        "mensaje":"Mensaje",
+        "telefono-place":"Telefono",
+        "email-place":"Email",
+        "mensaje-place":"Mensaje",
+        "enviar":"Enviar"
+    }
+}

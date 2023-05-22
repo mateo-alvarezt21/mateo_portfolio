@@ -6,13 +6,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import {useTranslation} from "react-i18next"
 
 
 
 const Proyects = ({lightMode}) => {
+
+    const [t, i18n] = useTranslation("global")
+
   return (
     <div className={`proyects ${lightMode ? 'light' : ''}`}>
-        <h1 className='proyect'>Proyectos</h1>
+        <h1 className='proyect'>{t("proyects.proyectos")}</h1>
         <div>
             <img className='fondo-elipse2'  src="./Ellipse3.png" alt="" />
         </div>
@@ -37,7 +41,7 @@ const Proyects = ({lightMode}) => {
                 </div>
                 <div className="proyect__p-icon">
                     <div className='p-container'>
-                        <p className={`proyect__p ${lightMode ? 'light' : ''}`} >Web que permite al usuario saber datos con precisión del clima a en su localización, usando parámetros de geolocalización y dando la información de forma grafica y comprensible para el usuario mediante API </p>
+                        <p className={`proyect__p ${lightMode ? 'light' : ''}`} >{t("proyects.descripcion1")} </p>
                     </div>
                     <div className='proyect__icons-container'>
                         <img className='icon' src="./css-icon.png" alt="" />
@@ -56,7 +60,7 @@ const Proyects = ({lightMode}) => {
                 </div>
                 <div className="proyect__p-icon">
                     <div className='p-container'>
-                        <p className={`proyect__p ${lightMode ? 'light' : ''}`}>Web desarrollada al 100% con metodología ágil, usando dependencias de React para paginación, cuenta con un carrito de compras 100% funcional y diseño totalmente responsive</p>
+                        <p className={`proyect__p ${lightMode ? 'light' : ''}`}>{t("proyects.descripcion2")}</p>
                     </div>
                     <div className='proyect__icons-container'>
                         <img className='icon' src="./css-icon.png" alt="" />
@@ -75,7 +79,7 @@ const Proyects = ({lightMode}) => {
                 </div>
                 <div className="proyect__p-icon">
                     <div className='p-container'>
-                        <p className={`proyect__p ${lightMode ? 'light' : ''}`}>Web replica de una Pokedex en donde el usuario podra buscar todos los iconicos pokemon de la serie animada en conjunto a sus estadisticas, cuenta con diseño responsivo adaptable a cualquier tipo de dispositivo</p>
+                        <p className={`proyect__p ${lightMode ? 'light' : ''}`}>{t("proyects.descripcion3")}</p>
                     </div>
                     <div className='proyect__icons-container'>
                         <img className='icon' src="./css-icon.png" alt="" />
@@ -87,14 +91,14 @@ const Proyects = ({lightMode}) => {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <h2 className={`proyect__title ${lightMode ? 'light' : ''}`}>Crud de Usuarios</h2>
+            <h2 className={`proyect__title ${lightMode ? 'light' : ''}`}>{t("proyects.crud")}</h2>
             <div className="proyect__img-p">
                 <div className='img-container'>
                     <img className='proyect__img' src="./userscrud.png" alt="" />
                 </div>
                 <div className="proyect__p-icon">
                     <div className='p-container'>
-                        <p className={`proyect__p ${lightMode ? 'light' : ''}`}>Web que permite hacer registros de usuarios. Usa metodologías ágiles, Redux, APIS y dependencias personalizadas y diseño responsivo a todo tipo de tamaño
+                        <p className={`proyect__p ${lightMode ? 'light' : ''}`}>{t("proyects.descripcion4")}
                     </p>
                     </div>
                     <div className='proyect__icons-container'>
@@ -107,14 +111,14 @@ const Proyects = ({lightMode}) => {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <h2 className={`proyect__title ${lightMode ? 'light' : ''}`}>Rick y Morty</h2>
+            <h2 className={`proyect__title ${lightMode ? 'light' : ''}`}>Rick & Morty</h2>
             <div className="proyect__img-p">
                 <div className='img-container'>
                     <img className='proyect__img' src="./rickymorty.png" alt="" />
                 </div>
                 <div className="proyect__p-icon">
                     <div className='p-container'>
-                        <p className={`proyect__p ${lightMode ? 'light' : ''}`}>Página web la cual nos sirve para trackear los personajes y dimensiones de la popular caricatura “Rick y Morty”, Se implementaron API y uso de Custom Hooks para reducir tiempos de ejecución. Diseño responsivo a todo tipo de tamaño
+                        <p className={`proyect__p ${lightMode ? 'light' : ''}`}>{t("proyects.descripcion5")}
                     </p>
                     </div>
                     <div className='proyect__icons-container'>
